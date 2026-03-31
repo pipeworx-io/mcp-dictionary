@@ -1,0 +1,16 @@
+{
+  "name": "@pipeworx/mcp-dictionary",
+  "version": "0.1.0",
+  "type": "module",
+  "license": "MIT",
+  "keywords": [
+    "mcp",
+    "mcp-server",
+    "model-context-protocol",
+    "pipeworx",
+    "dictionary"
+  ],
+  "devDependencies": {
+    "typescript": "^5.7.0"
+  }
+}
