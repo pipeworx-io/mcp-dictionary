@@ -1,11 +1,3 @@
-/**
- * Dictionary MCP — wraps Free Dictionary API (free, no auth)
- *
- * Tools:
- * - define_word: definitions, phonetics, part of speech, and usage examples
- * - get_synonyms: synonyms and antonyms extracted from the same endpoint
- */
-
 interface McpToolDefinition {
   name: string;
   description: string;
@@ -20,6 +12,15 @@ interface McpToolExport {
   tools: McpToolDefinition[];
   callTool: (name: string, args: Record<string, unknown>) => Promise<unknown>;
 }
+
+/**
+ * Dictionary MCP — wraps Free Dictionary API (free, no auth)
+ *
+ * Tools:
+ * - define_word: definitions, phonetics, part of speech, and usage examples
+ * - get_synonyms: synonyms and antonyms extracted from the same endpoint
+ */
+
 
 const BASE_URL = 'https://api.dictionaryapi.dev/api/v2/entries/en';
 

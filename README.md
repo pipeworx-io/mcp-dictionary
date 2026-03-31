@@ -1,13 +1,13 @@
-# @pipeworx/mcp-dictionary
+# mcp-dictionary
 
-MCP server for English dictionary — definitions, phonetics, and examples.
+Dictionary MCP — wraps Free Dictionary API (free, no auth)
+
+Part of the [Pipeworx](https://pipeworx.io) open MCP gateway.
 
 ## Tools
 
 | Tool | Description |
 |------|-------------|
-| `define_word` | Look up a word — definitions, phonetics, part of speech, and usage examples |
-| `get_synonyms` | Get synonyms and antonyms for a word |
 
 ## Quick Start
 
@@ -23,7 +23,7 @@ Add to your MCP client config:
 }
 ```
 
-Or run via CLI:
+Or use the CLI:
 
 ```bash
 npx pipeworx use dictionary
