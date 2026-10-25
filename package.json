@@ -1,6 +1,6 @@
 {
   "name": "@pipeworx/mcp-dictionary",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "description": "Dictionary MCP — wraps Free Dictionary API (free, no auth)",
   "type": "module",
   "main": "src/index.ts",
@@ -26,7 +26,7 @@
     "@cloudflare/workers-types": "^4.20260405.1"
   },
   "pipeworx": {
-    "sourceHash": "v1-6a7b79234807b59d58dcba92c719fb1b9f616399c1d6c715ac28f899b483a416",
-    "sourceCommit": "5749f83c0ea115fab4c0c0ef04b66b05f2507d67"
+    "sourceHash": "v1-d5c84bc62d63999e7e21fc9ff4967bd04306da706e5ece07ad0cccaba8ce8fde",
+    "sourceCommit": "29fb434ca65fe0f61191f19c3502f583f5fb99d7"
   }
 }
