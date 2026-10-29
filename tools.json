@@ -1,0 +1,34 @@
+[
+  {
+    "name": "define_word",
+    "description": "Look up a word's definition, pronunciation, part of speech, and usage examples. Returns meaning, phonetic spelling, and example sentences.",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "word": {
+          "type": "string",
+          "description": "The word to look up"
+        }
+      },
+      "required": [
+        "word"
+      ]
+    }
+  },
+  {
+    "name": "get_synonyms",
+    "description": "Find synonyms and antonyms for any word. Returns similar words and opposites, useful for writing and paraphrasing.",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "word": {
+          "type": "string",
+          "description": "The word to find synonyms/antonyms for"
+        }
+      },
+      "required": [
+        "word"
+      ]
+    }
+  }
+]
